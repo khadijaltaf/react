@@ -4,46 +4,46 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 const Exp = () => {
   return (
-    <section id='exp'>
+    <section id='exp' className='container'>
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
 
-      <div className='container exp__container'>
+      <div className='exp__container'>
 
-        <div className='exp__testing'>
+        <div className='experience'>
           <h3>Software Testing</h3>
           <div className="exp_content">
-            
+
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>Test documentation</h4>
-                <small>Experienced</small></div>
+                  <small>Experienced</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>Types of Testing</h4>
-                <small>Experienced</small></div>
+                  <small>Experienced</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>API Testing</h4>
-                <small>Beginner</small></div>
+                  <small>Beginner</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>DataBase Testing</h4>
-                <small>Beginner</small></div>
+                  <small>Beginner</small></div>
               </div>
             </article>
 
@@ -54,56 +54,56 @@ const Exp = () => {
         {/* end of Testing */}
 
 
-        <div className='exp__coding'>
+        <div className='experience'>
 
-        <h3>Web Development/Designing</h3>
+          <h3>Web Development/Designing</h3>
           <div className="exp_content">
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>HTML and CSS</h4>
-                <small>Experienced</small></div>
+                  <small>Experienced</small></div>
               </div>
             </article>
 
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>React JS</h4>
-                <small>Experienced</small></div>
+                  <small>Experienced</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>Express JS and Node JS</h4>
-                <small>Learning/Beginner</small></div>
+                  <small>Learning/Beginner</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>Javascript</h4>
-                <small>Intermediate</small></div>
+                  <small>Intermediate</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4>Figma</h4>
-                <small>Intermediate</small></div>
+                  <small>Intermediate</small></div>
               </div>
             </article>
 
             <article>
               <div className="exp_details">
-                <BsPatchCheckFill  className='exp_details-icons'/>
+                <BsPatchCheckFill className='exp_details-icons' />
                 <div><h4> Canva/MS designs </h4>
-                <small>Experienced</small></div>
+                  <small>Experienced</small></div>
               </div>
             </article>
 
@@ -112,7 +112,7 @@ const Exp = () => {
         </div>
 
         {/* End of coding */}
-        
+
 
       </div>
     </section>
